@@ -24,7 +24,8 @@ Developed by: BHUMIREDDY LAKSHMI VARDHAN REDDY
 RegisterNumber:  212223240016
 */
 ```
-'''
+```
+
 import numpy as np
 import matplotlib.pyplot as plt
 x=np.array(eval(input()))
@@ -43,7 +44,8 @@ print(y_pred)
 plt.scatter(x,y)
 plt.plot(x,y_pred,color='red')
 plt.show()
-'''
+
+```
 
 ## Output:
 ![image](https://github.com/user-attachments/assets/6128395f-b8db-418b-aaaf-dde60ea837ed)
